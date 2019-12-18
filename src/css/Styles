@@ -1,0 +1,41 @@
+#btn {
+ -fx-font-family: "Comic Sans MS";
+ -fx-font-weight: 900;
+ -fx-text-fill: black;
+ -fx-cursor: hand;
+ -fx-background-color: linear-gradient(#008080, #2A5058);
+
+
+}
+#VboxArea{
+ -fx-background-image: url("../content/img.gif");
+ -fx-background-size: 300 300;
+ -fx-background-size: 100% 100%;
+ -fx-background-position: center center;
+ -fx-background-color: transparent;
+ -fx-font-weight: 900;
+
+
+
+
+}
+#textField{
+ -fx-cursor: hand;
+ -fx-font-family: "Comic Sans MS";
+ -fx-font-weight: 900;
+ -fx-background-color: linear-gradient(#008080, #2A5058);
+
+
+}
+#textField: hover{
+
+ -fx-background-color: linear-gradient(#2A5058, #008080);
+ -fx-text-fill: white;
+
+}
+#btn: hover{
+
+ -fx-text-fill: white;
+ -fx-background-color: linear-gradient(#2A5058, #008080);
+
+}
